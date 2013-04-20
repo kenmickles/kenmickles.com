@@ -30,9 +30,6 @@
     }
     
     img.main {
-      -moz-background-clip:border;
-      -moz-background-inline-policy:continuous;
-      -moz-background-origin:padding;
       background:#121212 none repeat scroll 0 0;
       border:1px solid #1E1E1E;
       padding:9px;
@@ -47,21 +44,15 @@
     }
     
     #content {
-      width: 620px;
+      width: 630px;
+			max-width: 90%;
       margin: 8% auto;
     }
+
+		#content img {
+			max-width: 94%;
+		}
     </style>
-    
-    <![if !IE]>
-      <style media="only screen and (max-device-width: 480px)" type="text/css">
-      #content {
-        width: 100%;
-      }
-      #content img {
-        max-width: 90%;
-      }
-      </style>
-    <![endif]>    
   </head>
   <body>
     <div id="content">
